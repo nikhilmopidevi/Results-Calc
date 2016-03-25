@@ -1,0 +1,41 @@
+body{
+font-family: 'Roboto', sans-serif;
+background : #F2F2F2;
+}
+
+a{
+color : black;
+text-decoration : none;
+}
+a:hover{
+color : #26AD60;
+}
+
+h1,h3{
+ font-weight : 300;
+ line-height : 50%; 
+ color : #26AD60;
+}
+h3{
+color : black;
+}
+
+
+#heading{
+font-weight : 400;
+padding-top : 10px;
+color : #26AD60;
+}
+
+.images{
+display : inline;
+margin : 10px;
+border-color: #8e8a8a;
+border-width: 1px;
+border-style: dotted;
+}
+
+#images{	
+padding-left : 25px;
+}
+
