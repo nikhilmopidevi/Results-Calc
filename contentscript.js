@@ -36,8 +36,21 @@ var marks = new Array();
  for(var i=0;i<n;i++)
    total += Number(marks[i]);
 
+ //code for checking the result (P or F)
+var pass = true;
+var table = document.getElementsByClassName("collapse")[0];
+
+ for(var i=0;i<n;i++) 
+ {
+   if( table.children[0].children[i+1].children[7].innerHTML == 'F')
+   {
+      pass = false;  
+	  break;
+   }
+ }   
+   
    
  //code to send the data to background.js
-var message= course+"$"+total;
+var message= course+"$"+total+"$"+pass;
 
 chrome.runtime.sendMessage(message);
