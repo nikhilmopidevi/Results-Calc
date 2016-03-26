@@ -27,6 +27,13 @@ n=8;
 //code for obtaining marks by scanning the table
 var table = document.getElementsByClassName("collapse")[0];
 
+var rows = table.getElementsByTagName("tr").length;
+
+if(rows==8) //check for fourth year, because of only 7 subjects
+{
+	n=7;
+}
+
 var marks = new Array();
 
  for(var i=0;i<n;i++) 
