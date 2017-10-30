@@ -1,7 +1,7 @@
 # Results Calc
 ### This extension helps calculate your total and percentage.
 
-##### This is an exclusive extension for GRIET students.
+##### This is a Google Chrome Extension written in JavaScript. It is an exclusive extension for GRIET students.
 
 You can get the extension from [here](https://chrome.google.com/webstore/detail/results-calc/dkkccfjlejpmkpomkbmgohpbcomliika?hl=en&gl=IN).
 
